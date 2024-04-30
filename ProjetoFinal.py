@@ -26,5 +26,5 @@ for arquivo in lista_arquivo:
 
     if "." in arquivo:
         shutil.copy2(nome_completo_arquivo, nome_final_arquivo)
-    elif     "backup" != arquivo:
+    elif "backup" != arquivo:
         shutil.copytree(nome_completo_arquivo, nome_final_arquivo)
